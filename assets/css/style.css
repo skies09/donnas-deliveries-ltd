@@ -130,7 +130,20 @@ h2 {
     font-family: 'Rubik', cursive;
 }
 
+/*contact page*/
+.center-form {
+    padding-top: 10px;
+    margin: 20px auto;
+    max-width: 70%;
+}
 
+a[type='sumbit'] {
+    margin-top: 15px;
+    margin-bottom:20px;
+    background-color: #e84610;
+    color: #fafafa;
+
+}
 
 
 /*footer*/

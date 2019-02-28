@@ -28,12 +28,12 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class='nav navbar-nav'>
                     <li class='active'>
-                        <li><a href='/qualifications.html'>Licences and Qualifications</a></li>
-                        <li><a href='/experience.html'>Work Experience</a></li>
+                        <li><a href='#qualifications.html'>Licences and Qualifications</a></li>
+                        <li><a href='#experience.html'>Work Experience</a></li>
                 </ul>
 
                 <div class='navbar-header navbar-right hidden-xs'>
-                    <a href='/contact.html' class='btn btn-default navbar-btn'>Message me</a>
+                    <a href='/index.html' class='btn btn-default navbar-btn'>Back Home</a>
                     <p class='navbar-text'><i>Great service for you</i></p>
                 </div>
             </div>
@@ -46,27 +46,47 @@
                 <section class='jumbotron text-center'>
                     <h1><strong>Donna's Deliveries</strong></h1>
                     <h2>HGV Driver For Hire</h2>
-                    <p><button class='btn btn-lg btn-info' data=toggle='modal' data-target='#signUpModal'>Message Me</button></p>
                 </section>
             </div>
         </div>
     </article>
 
-<!--footer-->
+    <!--form-->
+    <section class='container-fluid'>
+        <div class='row bg-color-contact'>
+            <div>
+                <h3 class='contact-heading uppercase text-center'>Need Something Transporting?</h3>
+                <h5 class='contact-statement uppercase text-center'>Contact Me Now</h5>
+            </div>
+            <div class="center-form">
+                <form onsubmit="sendMail(this);">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required>
+                    <input type="email" name="emailaddress" class="form-control" id="email" placeholder="Email" required>
+                    <textarea name="projectsummary" class="form-control" id="projectsummary" rows="7" placeholder="Contract Description" required></textarea>
+                    <a type="submit" class="btn btn-info center-block">Send</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--footer-->
     <footer class='container-fluid'>
-        <div id='footer-details' class='row'>
+        <div class='row'>
             <div class='col-sm-12'>
                 <ul class='list-inline social-links'>
                     <li><a target='_blank' href='https://www.facebook.com/profile.php?id=100002920786337'><i class='fa fa-facebook'></i></a></li>
                     <li><a target='_blank' href='https://twitter.com/skies009'><i class='fa fa-twitter'></i></a></li>
                     <li><a target='_blank' href='https://www.linkedin.com/in/donna-smith-091285'><i class='fa fa-linkedin'></i></a></li>
                     <li><a target='_blank' href='https://www.instagram.com/boardingtrucker/'><i class='fa fa-instagram'></i></a></li>
-                    <li><a target='_blank' href='https://github.com/skies09'><i class='fa fa-github'></i></a></li>
                 </ul>
             </div>
         </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/assets/js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
