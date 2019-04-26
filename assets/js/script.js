@@ -4,11 +4,11 @@ $(document).ready(function(){
 
 //creates slide toggle on paragraph on button click
 $("button").click(function(){
-	$(this).prev().slideToggle(1000);	 
+	$(this).prev().slideToggle(500);	 
 
 }); 
 $("ex-button").click(function(){
-	$("p").prev().slideToggle(1000);	 
+	$("p").prev().slideToggle(500);	 
 
 }); 
 });
